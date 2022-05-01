@@ -1,2 +1,2 @@
 import requests
-req = requests.get('https://api.telegram.org/bot1835937794:AAGrYMKkvpqry85eiHX_yuC_0oWJhH5fwuw/sendMessage?text=TEST&chat_id=1742761281')
+req = requests.get('https://api.telegram.org/bot5391677559:AAHhIJJHDQ53iMsdJGFg2ID4aQynGUh_dd0/sendMessage?text=TEST&chat_id=5388862175')
